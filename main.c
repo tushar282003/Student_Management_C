@@ -28,11 +28,11 @@ char determineGrade(float percentage)
 {
     if (percentage >= 90)
         return 'A';
-    else if (percentage >= 70)
+    else if (percentage >= 75)
         return 'B';
     else if (percentage >= 60)
         return 'C';
-    else if (percentage >= 50)
+    else if (percentage >= 45)
         return 'D';
     else
         return 'F'; // Fail
